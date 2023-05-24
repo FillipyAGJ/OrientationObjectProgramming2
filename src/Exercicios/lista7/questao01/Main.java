@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[]Args) {
-        converteMinutosEmSegundos(12);
+        System.out.println("valor digitado é: " + ConversorUnidadeTempo.converteMinutosEmSegundos(12));
     }
 }

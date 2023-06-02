@@ -5,26 +5,22 @@ import java.util.Scanner;
 public class questao22 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int[] valor = new int[3];
-        int tamanho = valor.length;
-        int maiorValor = 0;
+        int valor, valor2, valor3;
 
-        System.out.println("Digite 3 valores: ");
-        for (int i = 0; i < valor.length; i++) {
-            valor[i] = scan.nextInt();
+        System.out.println("Digite o primeiro valor:");
+        valor = scan.nextInt();
+        System.out.println("Digite o segundo valor:");
+        valor2 = scan.nextInt();
+        System.out.println("Digite o terceiro valor:");
+        valor3 = scan.nextInt();
+
+        if (valor > valor2 && valor > valor3) {
+            System.out.println(valor + " é o maior valor");
+        } else if (valor2 > valor && valor2 > valor3) {
+            System.out.println(valor2 + " é o maior valor");
+        } else if (valor3 > valor && valor3 > valor2) {
+            System.out.println(valor3 + " é o maior valor");
         }
-
-        for (int i = 0; i< valor.length; i++) {
-            for (int j = 1; j < (tamanho - i) ; j++) {
-                if (valor[j-1] < valor[j]) {
-                    maiorValor = valor[j];
-                } else {
-                    maiorValor = valor[j-1];
-                }
-            }
-        }
-
-        System.out.println("Maior valor é: " + maiorValor);
 
     }
 }

@@ -15,14 +15,4 @@ public class PessoaJuridica extends Pessoa {
     public void setCnpj(int cnpj) {
         this.cnpj = cnpj;
     }
-
-    @Override
-    public String getNome() {
-        return super.getNome();
-    }
-
-    @Override
-    public void setNome(String nome) {
-        super.setNome(nome);
-    }
 }

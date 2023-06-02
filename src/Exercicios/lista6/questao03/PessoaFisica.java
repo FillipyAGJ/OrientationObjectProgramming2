@@ -16,14 +16,4 @@ public class PessoaFisica extends Pessoa{
     public void setCpf(int cpf) {
         this.cpf = cpf;
     }
-
-    @Override
-    public String getNome() {
-        return super.getNome();
-    }
-
-    @Override
-    public void setNome(String nome) {
-        super.setNome(nome);
-    }
 }

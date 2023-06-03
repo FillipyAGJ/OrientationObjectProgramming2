@@ -6,8 +6,8 @@ public class questao47 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int num;
+        System.out.println("Digite 10 valores entre 1 e 10");
         do {
-            System.out.println("Digite um valor entre 1 e 10");
             num = scan.nextInt();
         } while(num > 10 || num <= 0);
 

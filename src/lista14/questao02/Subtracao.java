@@ -1,5 +1,6 @@
 package lista14.questao02;
 
+// basicamente a cópia da classe soma
 public class Subtracao implements OperacaoMatematica {
     public Subtracao() {}
 

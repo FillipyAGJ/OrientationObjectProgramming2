@@ -2,6 +2,8 @@ package Exercicios.lista11.questao01;
 
 public class Bimestre {
     private String idBimestre;
+
+    // Aqui é uma avaliação com
     private Avaliacao av1;
     private Avaliacao av2;
     private Avaliacao av3;
